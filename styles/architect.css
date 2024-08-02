@@ -274,6 +274,19 @@ button #experience-badge{
         max-width: 100%;
         
     }
+    .features{
+        align-items: center;
+    }
+    .team-img-container {
+        width:100%;
+    }
+    .features-container{
+        width:100%;
+    
+    }
+    .team-img-container img{
+        max-width: 100%;
+    }
     .card-container,.sponsor-company{
         justify-items: center;
         gap:20px;
@@ -287,6 +300,9 @@ button #experience-badge{
     }
     .img-architect img{
         width:100%;
+    }
+    .feature-child,.feature-child-1{
+        width: 100%;
     }
     
 
