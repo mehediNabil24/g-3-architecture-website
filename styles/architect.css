@@ -114,13 +114,28 @@ main{
     
 }
 .team-img-container{
+    width:55%;
+}
+.features-container{
+    width:30%;
+
+}
+.team-img-container img{
+    max-width: 100%;
+
+}
+.team-img-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
+    flex:1;
     
     
     
     
+}
+.features-container{
+    flex:1;
 }
 .features div{
     flex:1;
@@ -239,6 +254,16 @@ button #experience-badge{
 
 }
 
+.feature-child{
+    width:45%;
+}
+.feature-child-1{
+    width: 45%;
+}
+.feature-child-1 img{
+    max-width: 100%;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px){
     .navbar, .nav-links, .features,.feature-you{
@@ -247,6 +272,7 @@ button #experience-badge{
     .team-img-container, .card-container, .sponsor-company{
         grid-template-columns: 1fr;
         max-width: 100%;
+        
     }
     .card-container,.sponsor-company{
         justify-items: center;
